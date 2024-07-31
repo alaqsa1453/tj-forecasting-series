@@ -29,19 +29,8 @@ The data is located in the `data` folder.
 - **File `config.json`**: Contains the Python version and libraries used.
 - **File `main.ipynb`**: Full source file to run the model and overall analysis.
 
-### Folder Structure
-tj-forecast/
-│
-├── data/
-│ ├── training_jumlah_penumpang_tj.csv
-│ ├── testing_jumlah_penumpang_tj.csv
-│ ├── jumlah_armada_tj.csv
-│ ├── jumlah_penumpang_lrt.csv
-│ ├── jumlah_perjalanan_lrt.csv
-│ ├── jumlah_penumpang_mrt.csv
-│ └── jumlah_perjalanan_lrt.csv
-│
-├── script/
-├── output/
-├── config.json
-└── main.ipynb
+### Usage Instructions
+1. **Prepare the Environment**: Ensure you have the required Python version and libraries as specified in `config.json`.
+2. **Run the Notebook**: Open and run all cells in `main.ipynb` to perform the complete analysis and forecasting process.
+3. **Save the Results**: The analysis and prediction results will be saved in the `output` folder.
+
