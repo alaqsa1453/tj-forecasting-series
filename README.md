@@ -29,6 +29,41 @@ The data is located in the `data` folder.
 - **File `config.json`**: Contains the Python version and libraries used.
 - **File `main.ipynb`**: Full source file to run the model and overall analysis.
 
+### Required Libraries
+
+To run this project, you will need the following Python libraries:
+
+```python
+import sys
+import os
+import warnings
+warnings.filterwarnings("ignore")
+
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib
+
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.model_selection import GridSearchCV, TimeSeriesSplit, train_test_split
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.svm import SVR
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.neural_network import MLPRegressor
+
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.regression.rolling import RollingOLS
+
+from prophet import Prophet
+import prophet
+import sklearn
+import statsmodels
+
+import tensorflow
+
 
 ## Usage Instructions
 1. **Prepare the Environment**: Ensure you have the required Python version and libraries as specified in `config.json`.
