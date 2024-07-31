@@ -65,6 +65,12 @@ import statsmodels
 import tensorflow
 ```
 
+You can install these libraries using pip with the following command:
+
+```
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels prophet tensorflow
+```
+
 ## Usage Instructions
 1. **Prepare the Environment**: Ensure you have the required Python version and libraries as specified in `config.json`.
 2. **Run the Notebook**: Open and run all cells in `main.ipynb` to perform the complete analysis and forecasting process.
