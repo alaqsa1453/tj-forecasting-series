@@ -29,8 +29,18 @@ The data is located in the `data` folder.
 - **File `config.json`**: Contains the Python version and libraries used.
 - **File `main.ipynb`**: Full source file to run the model and overall analysis.
 
-### Usage Instructions
+
+## Usage Instructions
 1. **Prepare the Environment**: Ensure you have the required Python version and libraries as specified in `config.json`.
 2. **Run the Notebook**: Open and run all cells in `main.ipynb` to perform the complete analysis and forecasting process.
 3. **Save the Results**: The analysis and prediction results will be saved in the `output` folder.
 
+### Project Performance Metrics
+
+**Average Execution Time**
+
+The average total execution time for the notebook is approximately **114.49 seconds**.
+
+**Average Storage Size**
+
+The average total storage size of the notebook is approximately **4.12 MB**.
