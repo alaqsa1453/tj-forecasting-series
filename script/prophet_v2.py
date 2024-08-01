@@ -100,7 +100,7 @@ def main_prophet_v2(filepath, periods, prediction):
     # Combine forecasts
     df_forecast_combined = pd.concat([df_forecast_before_2020, df_forecast_after_2020])
     aux_.index = df_forecast_combined.iloc[-6:,].index
-    df_forecast_combined.iloc[-6:,0] = aux_['pred_4']
+    df_forecast_combined.iloc[-6:,0] = aux_['pred_1']
 
     # Print overall RMSE
     overall_rmse = np.sqrt(mean_squared_error(df['y'], df_forecast_combined['yhat'][:len(df['y'])]))
